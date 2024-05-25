@@ -1,5 +1,5 @@
 const express = require('express');
-const appstate = require('./fca-project-oriong/index.js');
+const appstate = require('fca-project-orion');
 const fs = require('fs');
 const path = require('path');
 const app = express();
