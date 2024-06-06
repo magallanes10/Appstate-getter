@@ -3,7 +3,7 @@ const appstate = require('fca-project-orion');
 const fs = require('fs');
 const path = require('path');
 const app = express();
-const port = process.env.PORT || 3030;
+const port = 8080;
 
 app.get('/appstate', (req, res) => {
   const email = req.query.e;
